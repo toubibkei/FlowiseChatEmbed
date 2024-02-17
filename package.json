@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "rollup --watch --config rollup.config.js",
     "build": "rollup --config rollup.config.js",
+    "start": "node index.js",
     "lint": "eslint \"src/**/*.ts*\"",
     "lint-fix": "eslint --fix \"src/**/*.ts*\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md,mdx}\"",

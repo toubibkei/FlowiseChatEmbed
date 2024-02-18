@@ -47,7 +47,7 @@ export type BotProps = {
   observersConfig?: observersConfigType;
 };
 
-const defaultWelcomeMessage = 'Hi there! How can I help?';
+const defaultWelcomeMessage = 'Bonjour, comment puis-je vous aider avec Olaparib - LYNPARZA ?';
 
 /*const sourceDocuments = [
     {

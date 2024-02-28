@@ -42,12 +42,12 @@ export type BotProps = {
   showTitle?: boolean;
   title?: string;
   titleAvatarSrc?: string;
-  fontSize?: number;
+  fontSize?: 18;
   isFullPage?: boolean;
   observersConfig?: observersConfigType;
 };
 
-const defaultWelcomeMessage = 'Bonjour, comment puis-je vous aider avec Olaparib - LYNPARZA ?';
+const defaultWelcomeMessage = 'Bonjour, comment puis-je vous aider ?';
 
 /*const sourceDocuments = [
     {

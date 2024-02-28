@@ -4,7 +4,7 @@ import { JSX } from 'solid-js/jsx-runtime';
 type ShortTextInputProps = {
   ref: HTMLInputElement | undefined;
   onInput: (value: string) => void;
-  fontSize?: number;
+  fontSize?: 18;
   disabled?: boolean;
 } & Omit<JSX.InputHTMLAttributes<HTMLInputElement>, 'onInput'>;
 
@@ -17,7 +17,7 @@ export const ShortTextInput = (props: ShortTextInputProps) => {
       class="focus:outline-none bg-transparent px-4 py-4 flex-1 w-full text-input disabled:opacity-50 disabled:cursor-not-allowed disabled:brightness-100"
       type="text"
       disabled={props.disabled}
-      style={{ 'font-size': props.fontSize ? `${props.fontSize}px` : '16px' }}
+      style={{ 'font-size': props.fontSize ? `${props.fontSize}px` : '18px' }}
       onInput={(e) => local.onInput(e.currentTarget.value)}
       {...others}
     />

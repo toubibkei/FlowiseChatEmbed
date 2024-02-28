@@ -9,7 +9,7 @@ type Props = {
   textColor?: string;
   sendButtonColor?: string;
   defaultValue?: string;
-  fontSize?: number;
+  fontSize?: 18;
   disabled?: boolean;
   onSubmit: (value: string) => void;
 };
